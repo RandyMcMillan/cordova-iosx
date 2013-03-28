@@ -1,0 +1,1 @@
+my testbed for cordova-ios and cordova-osx 
