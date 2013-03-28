@@ -1,0 +1,3 @@
+[submodule "CDVBrowser"]
+	path = CDVBrowser
+	url = /ios/cordova-iosx/Plugins/CDVBrowser
