@@ -1,6 +1,6 @@
 [submodule "CDVBrowser"]
-    path = /ios/cordova-iosx/Plugins/CDVBrowser
+    path = ios/cordova-iosx/Plugins/CDVBrowser
     url = https://github.com/RandyMcMillan/CDVBrowser.git
 [submodule "CDVOSXBrowser"]
-	path = /osx/cordova-osx/PLugins/CDVOSXBrowser
+	path = osx/cordova-iosx/Plugins/CDVOSXBrowser
 	url = https://github.com/RandyMcMillan/CDVOSXBrowser.git
