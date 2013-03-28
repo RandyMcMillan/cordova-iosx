@@ -3,4 +3,4 @@
 	url = /ios/cordova-iosx/Plugins/CDVBrowser
 [submodule "CDVOSXBrowser"]
 	path = CDVOSXBrowser
-	url = ./osx/cordova-iosx/Plugins/CDVOSXBrowser/
+	url = /osx/cordova-iosx/Plugins/CDVOSXBrowser
