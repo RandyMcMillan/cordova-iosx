@@ -1,1 +1,1 @@
-my testbed for cordova-ios and cordova-osx 
+my testbed for cordova-ios and cordova-osx development 
