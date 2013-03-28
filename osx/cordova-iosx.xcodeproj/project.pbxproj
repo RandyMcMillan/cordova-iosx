@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48A5BA861704DBF600772B8C /* ___FILEBASENAME___.js in Sources */ = {isa = PBXBuildFile; fileRef = 48A5BA771704DBF600772B8C /* ___FILEBASENAME___.js */; };
+		48A5BA871704DBF600772B8C /* ___FILEBASENAME___.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5BA781704DBF600772B8C /* ___FILEBASENAME___.m */; };
+		48A5BA881704DBF600772B8C /* ___FILEBASENAME___.md in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA791704DBF600772B8C /* ___FILEBASENAME___.md */; };
+		48A5BA891704DBF600772B8C /* ___FILEBASENAME____JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A5BA7B1704DBF600772B8C /* ___FILEBASENAME____JS.m */; };
+		48A5BA8A1704DBF600772B8C /* ___FILEBASENAME____View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA7C1704DBF600772B8C /* ___FILEBASENAME____View.xib */; };
+		48A5BA8B1704DBF600772B8C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA7D1704DBF600772B8C /* index.html */; };
+		48A5BA8C1704DBF600772B8C /* TemplateIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA7E1704DBF600772B8C /* TemplateIcon.icns */; };
+		48A5BA8D1704DBF600772B8C /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA7F1704DBF600772B8C /* TemplateInfo.plist */; };
+		48A5BA8E1704DBF600772B8C /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA801704DBF600772B8C /* Icon */; };
+		48A5BA8F1704DBF600772B8C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA811704DBF600772B8C /* README.md */; };
+		48A5BA901704DBF600772B8C /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA821704DBF600772B8C /* ScreenShot.png */; };
+		48A5BA911704DBF600772B8C /* ScreenShot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA831704DBF600772B8C /* ScreenShot2.png */; };
+		48A5BA921704DBF600772B8C /* ScreenShot3.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA841704DBF600772B8C /* ScreenShot3.png */; };
+		48A5BA931704DBF600772B8C /* ScreenShot4.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A5BA851704DBF600772B8C /* ScreenShot4.png */; };
 		48B43519152E5E3500906A36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B43518152E5E3500906A36 /* Cocoa.framework */; };
 		48B43525152E5E3500906A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B43524152E5E3500906A36 /* main.m */; };
 		48B43536152E5E4100906A36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B43535152E5E4100906A36 /* WebKit.framework */; };
@@ -61,6 +75,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		48A5BA761704DBF600772B8C /* ___FILEBASENAME___.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___FILEBASENAME___.h"; sourceTree = "<group>"; };
+		48A5BA771704DBF600772B8C /* ___FILEBASENAME___.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "___FILEBASENAME___.js"; sourceTree = "<group>"; };
+		48A5BA781704DBF600772B8C /* ___FILEBASENAME___.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME___.m"; sourceTree = "<group>"; };
+		48A5BA791704DBF600772B8C /* ___FILEBASENAME___.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "___FILEBASENAME___.md"; sourceTree = "<group>"; };
+		48A5BA7A1704DBF600772B8C /* ___FILEBASENAME____JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___FILEBASENAME____JS.h"; sourceTree = "<group>"; };
+		48A5BA7B1704DBF600772B8C /* ___FILEBASENAME____JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "___FILEBASENAME____JS.m"; sourceTree = "<group>"; };
+		48A5BA7C1704DBF600772B8C /* ___FILEBASENAME____View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "___FILEBASENAME____View.xib"; sourceTree = "<group>"; };
+		48A5BA7D1704DBF600772B8C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		48A5BA7E1704DBF600772B8C /* TemplateIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TemplateIcon.icns; sourceTree = "<group>"; };
+		48A5BA7F1704DBF600772B8C /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		48A5BA801704DBF600772B8C /* Icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Icon"; sourceTree = "<group>"; };
+		48A5BA811704DBF600772B8C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		48A5BA821704DBF600772B8C /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
+		48A5BA831704DBF600772B8C /* ScreenShot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot2.png; sourceTree = "<group>"; };
+		48A5BA841704DBF600772B8C /* ScreenShot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot3.png; sourceTree = "<group>"; };
+		48A5BA851704DBF600772B8C /* ScreenShot4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot4.png; sourceTree = "<group>"; };
 		48B43514152E5E3500906A36 /* cordova-iosx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cordova-iosx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B43518152E5E3500906A36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		48B4351B152E5E3500906A36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -99,6 +129,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48A5BA741704DBF600772B8C /* CDVOSXBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				48A5BA751704DBF600772B8C /* CDVOSXBrowser.xctemplate */,
+				48A5BA801704DBF600772B8C /* Icon */,
+				48A5BA811704DBF600772B8C /* README.md */,
+				48A5BA821704DBF600772B8C /* ScreenShot.png */,
+				48A5BA831704DBF600772B8C /* ScreenShot2.png */,
+				48A5BA841704DBF600772B8C /* ScreenShot3.png */,
+				48A5BA851704DBF600772B8C /* ScreenShot4.png */,
+			);
+			name = CDVOSXBrowser;
+			path = "cordova-iosx/Plugins/CDVOSXBrowser";
+			sourceTree = "<group>";
+		};
+		48A5BA751704DBF600772B8C /* CDVOSXBrowser.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				48A5BA761704DBF600772B8C /* ___FILEBASENAME___.h */,
+				48A5BA771704DBF600772B8C /* ___FILEBASENAME___.js */,
+				48A5BA781704DBF600772B8C /* ___FILEBASENAME___.m */,
+				48A5BA791704DBF600772B8C /* ___FILEBASENAME___.md */,
+				48A5BA7A1704DBF600772B8C /* ___FILEBASENAME____JS.h */,
+				48A5BA7B1704DBF600772B8C /* ___FILEBASENAME____JS.m */,
+				48A5BA7C1704DBF600772B8C /* ___FILEBASENAME____View.xib */,
+				48A5BA7D1704DBF600772B8C /* index.html */,
+				48A5BA7E1704DBF600772B8C /* TemplateIcon.icns */,
+				48A5BA7F1704DBF600772B8C /* TemplateInfo.plist */,
+			);
+			path = CDVOSXBrowser.xctemplate;
+			sourceTree = "<group>";
+		};
 		48B43509152E5E3500906A36 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +208,7 @@
 		7E608F2E16E7EC900018F512 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				48A5BA741704DBF600772B8C /* CDVOSXBrowser */,
 				48B43524152E5E3500906A36 /* main.m */,
 				48B43526152E5E3500906A36 /* cordova-iosx-Prefix.pch */,
 			);
@@ -260,6 +323,17 @@
 				7E608F4A16E7EE970018F512 /* InfoPlist.strings in Resources */,
 				7E608F4B16E7EE970018F512 /* MainViewController.xib in Resources */,
 				48F2F8C71704D28400F3809D /* www in Resources */,
+				48A5BA881704DBF600772B8C /* ___FILEBASENAME___.md in Resources */,
+				48A5BA8A1704DBF600772B8C /* ___FILEBASENAME____View.xib in Resources */,
+				48A5BA8B1704DBF600772B8C /* index.html in Resources */,
+				48A5BA8C1704DBF600772B8C /* TemplateIcon.icns in Resources */,
+				48A5BA8D1704DBF600772B8C /* TemplateInfo.plist in Resources */,
+				48A5BA8E1704DBF600772B8C /* Icon in Resources */,
+				48A5BA8F1704DBF600772B8C /* README.md in Resources */,
+				48A5BA901704DBF600772B8C /* ScreenShot.png in Resources */,
+				48A5BA911704DBF600772B8C /* ScreenShot2.png in Resources */,
+				48A5BA921704DBF600772B8C /* ScreenShot3.png in Resources */,
+				48A5BA931704DBF600772B8C /* ScreenShot4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +347,9 @@
 				48B43525152E5E3500906A36 /* main.m in Sources */,
 				7E608F3C16E7EE8D0018F512 /* AppDelegate.m in Sources */,
 				7E608F8216E7F0880018F512 /* MainViewController.m in Sources */,
+				48A5BA861704DBF600772B8C /* ___FILEBASENAME___.js in Sources */,
+				48A5BA871704DBF600772B8C /* ___FILEBASENAME___.m in Sources */,
+				48A5BA891704DBF600772B8C /* ___FILEBASENAME____JS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

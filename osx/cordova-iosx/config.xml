@@ -29,6 +29,8 @@
     <plugins>
         <plugin name="Device" value="CDVDevice"/>
         <plugin name="NetworkStatus" value="CDVConnection" />
+        <plugin name="___FILEBASENAME___" value="___FILEBASENAME___" />
+
     </plugins>
 
     <access origin="*" />
