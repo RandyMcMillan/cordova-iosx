@@ -80,10 +80,28 @@
 	return self;
 }
 
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
+- (void)windowWillLoad
 {
-	//[super viewDidLoad]
+
+    NSLog(@"____windowWillLoad____");
+
+}
+
+- (NSString *)windowTitleForDocumentDisplayName:(NSString *)displayName
+{
+
+    NSString *aDisplayName = @"display NAME";
+    displayName = aDisplayName;
+    return displayName;
+    
+}
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)windowDidLoad
+{
+    
+    //[self.window setTitle:[self windowTitleForDocumentDisplayName:nil]];
+    [self.window setTitle:@""];
+	[super windowDidLoad];
 
 	self.refreshBtn.image	= [NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/but_refresh"]];
 	self.backBtn.image		= [NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/arrow_left"]];
@@ -93,7 +111,7 @@
 	//self.webView.delegate			= self;
 	//self.webView.scalesPageToFit	= TRUE;
 	//self.webView.backgroundColor	= [UIColor whiteColor];
-	NSLog(@"View did load");
+	NSLog(@"_______Window did load_______");
 }
 
 - (void)didReceiveMemoryWarning
@@ -104,7 +122,7 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload
+- (void)WindowDidUnload
 {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
@@ -188,14 +206,16 @@
             NSString *htmlText = @"<html><body style='background-color:#333;margin:0px;padding:0px;'><img style='min-height:200px;margin:0px;padding:0px;width:100%;height:auto;' alt='' src='IMGSRC'/></body></html>";
             htmlText = [htmlText stringByReplacingOccurrencesOfString:@"IMGSRC" withString:url];
 
-            // [self.webView loadHTMLString:htmlText baseURL:[NSURL URLWithString:@""]];
+            [self.webView.mainFrame loadHTMLString:htmlText baseURL:[NSURL URLWithString:@""]];
+        
         } else {
+        
             self.imageURL	= @"";
             self.isImage	= NO;
 
             NSLog(@"url sent from html = %@ ", url);
             NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
-            // [self.webView loadRequest:request];
+             [self.webView.mainFrame loadRequest:request];
         }
         
     } else {
@@ -203,7 +223,7 @@
         NSLog(@"Local url sent from html = %@ ", url);
         NSURLRequest *request = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:url ofType:nil inDirectory:@"www"]];
         NSLog(@"Local request sent from html = %@ ", request);
-        //  [self.webView loadRequest:[NSURLRequest requestWithURL:request]];
+          [self.webView.mainFrame loadRequest:[NSURLRequest requestWithURL:request]];
         
     }
 
