@@ -1,11 +1,28 @@
-// /  Created by Jesse MacFadyen on 10-05-29.
-//  Copyright 2010 Nitobi. All rights reserved.
-//
-//  ___FILEBASENAME___ Template Created Jan 7 2013
-//  Copyright 2013 @RandyMcMillan
-
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
+/*
+ *   Licensed to the Apache Software Foundation (ASF) under one
+ *   or more contributor license agreements.  See the NOTICE file
+ *   distributed with this work for additional information
+ *   regarding copyright ownership.  The ASF licenses this file
+ *   to you under the Apache License, Version 2.0 (the
+ *   "License"); you may not use this file except in compliance
+ *   with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing,
+ *   software distributed under the License is distributed on an
+ *   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ *   KIND, either express or implied.  See the License for the
+ *   specific language governing permissions and limitations
+ *   under the License.
+ *
+ *      ___FILEBASENAME___
+ *      ___FILEBASENAME___ Template Created ___DATE___.
+ *      Copyright 2013 @RandyMcMillan
+ *
+ *     Created by ___FULLUSERNAME___ on ___DATE___.
+ *     Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
+ */
 #include <sys/types.h>
 #include <sys/sysctl.h>
 #import "___FILEBASENAME___ViewController.h"
@@ -15,7 +32,7 @@
 @synthesize imageURL, isImage;
 @synthesize delegate, orientationDelegate;
 //@synthesize spinner, webView, addressLabel;
-//@synthesize closeBtn, refreshBtn, backBtn, fwdBtn, safariBtn;
+@synthesize closeBtn, refreshBtn, backBtn, fwdBtn, safariBtn;
 @synthesize webView;
 
 /*
@@ -101,12 +118,13 @@
     
     //[self.window setTitle:[self windowTitleForDocumentDisplayName:nil]];
     [self.window setTitle:@""];
+    [self.window setBackgroundColor:[NSColor colorWithCalibratedWhite:0.423 alpha:1.000]];
 	[super windowDidLoad];
 
-	self.refreshBtn.image	= [NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/but_refresh"]];
-	self.backBtn.image		= [NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/arrow_left"]];
-	self.fwdBtn.image		= [NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/arrow_right"]];
-	self.safariBtn.image	= [NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/compass"]];
+	[self.refreshBtn setImage:[NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/but_refresh"]]];
+	[self.backBtn setImage:[NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/arrow_left"]]];
+	[self.fwdBtn setImage:[NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/arrow_right"]]];
+	[self.safariBtn setImage:[NSImage imageNamed:[[self class] resolveImageResource:@"___FILEBASENAME___.bundle/compass"]]];
 
 	//self.webView.delegate			= self;
 	//self.webView.scalesPageToFit	= TRUE;
@@ -163,7 +181,9 @@
 	} else {
 		//[[self parentViewController] dismissModalViewControllerAnimated:YES];
 	}
-    
+   
+    [self.webView.mainFrame loadHTMLString:nil baseURL:[NSURL URLWithString:@""]];
+
     self.contentView.window.isVisible = FALSE;
     
 
