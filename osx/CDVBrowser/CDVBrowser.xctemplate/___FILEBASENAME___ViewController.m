@@ -251,7 +251,7 @@
 	//[self.spinner stopAnimating];
 
 	if (self.delegate != NULL) {
-        //	[self.delegate onChildLocationChange:request.URL.absoluteString];
+        	[self.delegate onChildLocationChange:self.webView.mainFrameURL];
 	}
 }
 

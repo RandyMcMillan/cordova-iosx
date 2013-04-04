@@ -137,6 +137,8 @@
 
 - (void)onChildLocationChange:(NSString *)newLoc
 {
+    
+    NSLog(@"onChildLocationChange");
 	NSString	*tempLoc	= [NSString stringWithFormat:@"%@", newLoc];
 	NSString	*encUrl		= [tempLoc stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 
